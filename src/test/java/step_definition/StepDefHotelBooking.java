@@ -27,7 +27,7 @@ public class StepDefHotelBooking {
 	@Before
 	public void openBrowsser() {
 	//driver = new FirefoxDriver();
-		System.setProperty("webdriver.chrome.driver","C:\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\driver\\driver77\\chromedriver.exe");
 		 driver=new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	objhbpg = new HotelBookingPageFactory(driver);
